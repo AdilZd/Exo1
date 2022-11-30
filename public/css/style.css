@@ -88,6 +88,17 @@ input:focus {
 
 /* début exo 06 les transitions */
 
+.transition_06 {
+    background-color: gray;
+    height: 150px;
+    width: 50px;
+    transition: 3s;
+}
+
+.transition_06:active {
+    margin: 300px;
+}
+
 /* fin exo 06 les transitions */
 
 
