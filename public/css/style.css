@@ -53,6 +53,17 @@ input:focus {
 
 /* début exo 04 les transitions */
 
+.transition_04 {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    transition: 4s;
+}
+
+.transition_04:hover {
+    background-color: red;
+}  
+
 /* fin exo 04 les transitions */
 
 
