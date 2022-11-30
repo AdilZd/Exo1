@@ -191,5 +191,11 @@ input:focus {
     border-radius: 0;
 }
 
+.transition_10:active .transition_10_intrus{
+    background-color: blue;
+    border-radius: 0;
+    margin-left: 80%;
+}
+
 /* fin exo 10 les transitions */
 
