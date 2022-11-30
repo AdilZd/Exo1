@@ -42,6 +42,10 @@ section:nth-child(-n+13) {
 
 /* début exo 03 les_focus_03 */
 
+input:focus {
+    border: blue;
+    border-radius: 10px;
+}
 
 /* fin exo 03 les_focus_03 */
 
