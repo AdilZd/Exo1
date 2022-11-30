@@ -151,7 +151,7 @@ input:focus {
     background-color: lightblue;
     height: 20%;
     width: 20%;
-    transition: 3s;
+    transition: 1s;
 }
 
 .transition_09:active .transition_09_enfant {
@@ -163,6 +163,33 @@ input:focus {
 
 
 /* début exo 10 les transitions */
+
+.transition_10 {
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    transition: 3s;
+}
+
+.transition_10_intrus {
+    background-color: rgb(82, 189, 225);
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    transition: 3s;
+}
+
+.transition_10:active {
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 80%;
+}
+
+.transition_10_intrus:active {
+    background-color: blue;
+    margin-left: 90%;
+    border-radius: 0;
+}
 
 /* fin exo 10 les transitions */
 
