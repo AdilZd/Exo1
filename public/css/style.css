@@ -105,7 +105,16 @@ input:focus {
 
 /* début exo 07 les transitions */
 
+.transition_07 {
+    background-color: green;
+    height: 150px;
+    width: 50px;
+    transition: ease 3s;
+}
 
+.transition_07:active {
+    margin: 80%;
+}
 
 /* fin exo 07 les transitions */
 
